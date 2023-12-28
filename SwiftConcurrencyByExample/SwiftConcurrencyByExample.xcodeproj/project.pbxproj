@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41BE661A2B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66192B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift */; };
+		41BE661C2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE661B2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift */; };
+		41BE661E2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE661D2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift */; };
 		41F4500A2B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F450092B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift */; };
 		41F4500C2B3CC70F00078143 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4500B2B3CC70F00078143 /* ContentView.swift */; };
 		41F4500E2B3CC71100078143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F4500D2B3CC71100078143 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41BE66192B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatCallsFirstAsyncFunction.swift; sourceTree = "<group>"; };
+		41BE661B2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateAndUseAsyncProperties.swift; sourceTree = "<group>"; };
+		41BE661D2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCallAsyncFunctionUsingAsyncLet.swift; sourceTree = "<group>"; };
 		41F450062B3CC70F00078143 /* SwiftConcurrencyByExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyByExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F450092B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyByExampleApp.swift; sourceTree = "<group>"; };
 		41F4500B2B3CC70F00078143 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				41F4500B2B3CC70F00078143 /* ContentView.swift */,
 				41F450172B3CEA3700078143 /* HowToCreateAndCallAsyncFunction.swift */,
 				41F450192B3CFF1000078143 /* HowToCallAsyncWithThrowingFunction.swift */,
+				41BE66192B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift */,
+				41BE661B2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift */,
+				41BE661D2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift */,
 				41F4500D2B3CC71100078143 /* Assets.xcassets */,
 				41F4500F2B3CC71100078143 /* Preview Content */,
 			);
@@ -146,7 +155,10 @@
 				41F450182B3CEA3700078143 /* HowToCreateAndCallAsyncFunction.swift in Sources */,
 				41F4500C2B3CC70F00078143 /* ContentView.swift in Sources */,
 				41F4501A2B3CFF1000078143 /* HowToCallAsyncWithThrowingFunction.swift in Sources */,
+				41BE661C2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift in Sources */,
 				41F4500A2B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift in Sources */,
+				41BE661E2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift in Sources */,
+				41BE661A2B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

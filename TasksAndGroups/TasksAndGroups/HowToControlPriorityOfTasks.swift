@@ -8,9 +8,34 @@
 import SwiftUI
 
 struct HowToControlPriorityOfTasks: View {
+    @State private var jokeText = ""
+    @State private var quoteText = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(jokeText)
+            Button("Fetch new Joke", action: fetchJoke)
+            
+           
+        }
     }
+
+    func fetchJoke()  {
+        Task {
+                   let url = URL(string: "https://icanhazdadjoke.com")!
+                   var request = URLRequest(url: url)
+                   request.setValue("Swift Concurrency by Example", forHTTPHeaderField: "User-Agent")
+                   request.setValue("text/plain", forHTTPHeaderField: "Accept")
+
+                   let (data, _) = try await URLSession.shared.data(for: request)
+
+                   if let jokeString = String(data: data, encoding: .utf8) {
+                       jokeText = jokeString
+                   } else {
+                       jokeText = "Load failed."
+                   }
+               }
+           }
+    
 }
 
 #Preview {

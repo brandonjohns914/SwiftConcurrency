@@ -13,6 +13,10 @@
 		41BE66202B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE661F2B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift */; };
 		41BE66222B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66212B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift */; };
 		41BE66242B3D0C8500211C35 /* StoreContinuationsResumedLater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66232B3D0C8500211C35 /* StoreContinuationsResumedLater.swift */; };
+		41BE66262B3E0EAB00211C35 /* HowToLoopOverAsyncSequenceUsingAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66252B3E0EAB00211C35 /* HowToLoopOverAsyncSequenceUsingAwait.swift */; };
+		41BE66282B3E0FD000211C35 /* HowToManipulateAsyncSequnceUsingMapFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66272B3E0FD000211C35 /* HowToManipulateAsyncSequnceUsingMapFilter.swift */; };
+		41BE662A2B3E115400211C35 /* HowToCreateCustomAsyncSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66292B3E115400211C35 /* HowToCreateCustomAsyncSequence.swift */; };
+		41BE662C2B3E159B00211C35 /* HowToConvertAsyncSequenceIntoSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE662B2B3E159B00211C35 /* HowToConvertAsyncSequenceIntoSequence.swift */; };
 		41F4500A2B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F450092B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift */; };
 		41F4500C2B3CC70F00078143 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4500B2B3CC70F00078143 /* ContentView.swift */; };
 		41F4500E2B3CC71100078143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F4500D2B3CC71100078143 /* Assets.xcassets */; };
@@ -28,6 +32,10 @@
 		41BE661F2B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift; sourceTree = "<group>"; };
 		41BE66212B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTocreateContinuationsThatThrowsErrors.swift; sourceTree = "<group>"; };
 		41BE66232B3D0C8500211C35 /* StoreContinuationsResumedLater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreContinuationsResumedLater.swift; sourceTree = "<group>"; };
+		41BE66252B3E0EAB00211C35 /* HowToLoopOverAsyncSequenceUsingAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToLoopOverAsyncSequenceUsingAwait.swift; sourceTree = "<group>"; };
+		41BE66272B3E0FD000211C35 /* HowToManipulateAsyncSequnceUsingMapFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToManipulateAsyncSequnceUsingMapFilter.swift; sourceTree = "<group>"; };
+		41BE66292B3E115400211C35 /* HowToCreateCustomAsyncSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateCustomAsyncSequence.swift; sourceTree = "<group>"; };
+		41BE662B2B3E159B00211C35 /* HowToConvertAsyncSequenceIntoSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToConvertAsyncSequenceIntoSequence.swift; sourceTree = "<group>"; };
 		41F450062B3CC70F00078143 /* SwiftConcurrencyByExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyByExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F450092B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyByExampleApp.swift; sourceTree = "<group>"; };
 		41F4500B2B3CC70F00078143 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +85,10 @@
 				41BE661F2B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift */,
 				41BE66212B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift */,
 				41BE66232B3D0C8500211C35 /* StoreContinuationsResumedLater.swift */,
+				41BE66252B3E0EAB00211C35 /* HowToLoopOverAsyncSequenceUsingAwait.swift */,
+				41BE66272B3E0FD000211C35 /* HowToManipulateAsyncSequnceUsingMapFilter.swift */,
+				41BE66292B3E115400211C35 /* HowToCreateCustomAsyncSequence.swift */,
+				41BE662B2B3E159B00211C35 /* HowToConvertAsyncSequenceIntoSequence.swift */,
 				41F4500D2B3CC71100078143 /* Assets.xcassets */,
 				41F4500F2B3CC71100078143 /* Preview Content */,
 			);
@@ -167,10 +179,14 @@
 				41BE661C2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift in Sources */,
 				41F4500A2B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift in Sources */,
 				41BE661E2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift in Sources */,
+				41BE662C2B3E159B00211C35 /* HowToConvertAsyncSequenceIntoSequence.swift in Sources */,
 				41BE66222B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift in Sources */,
+				41BE662A2B3E115400211C35 /* HowToCreateCustomAsyncSequence.swift in Sources */,
 				41BE66242B3D0C8500211C35 /* StoreContinuationsResumedLater.swift in Sources */,
+				41BE66262B3E0EAB00211C35 /* HowToLoopOverAsyncSequenceUsingAwait.swift in Sources */,
 				41BE66202B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift in Sources */,
 				41BE661A2B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift in Sources */,
+				41BE66282B3E0FD000211C35 /* HowToManipulateAsyncSequnceUsingMapFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

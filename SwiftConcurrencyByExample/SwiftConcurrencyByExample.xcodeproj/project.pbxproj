@@ -10,6 +10,9 @@
 		41BE661A2B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66192B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift */; };
 		41BE661C2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE661B2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift */; };
 		41BE661E2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE661D2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift */; };
+		41BE66202B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE661F2B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift */; };
+		41BE66222B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66212B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift */; };
+		41BE66242B3D0C8500211C35 /* StoreContinuationsResumedLater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66232B3D0C8500211C35 /* StoreContinuationsResumedLater.swift */; };
 		41F4500A2B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F450092B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift */; };
 		41F4500C2B3CC70F00078143 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F4500B2B3CC70F00078143 /* ContentView.swift */; };
 		41F4500E2B3CC71100078143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F4500D2B3CC71100078143 /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 		41BE66192B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatCallsFirstAsyncFunction.swift; sourceTree = "<group>"; };
 		41BE661B2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateAndUseAsyncProperties.swift; sourceTree = "<group>"; };
 		41BE661D2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCallAsyncFunctionUsingAsyncLet.swift; sourceTree = "<group>"; };
+		41BE661F2B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift; sourceTree = "<group>"; };
+		41BE66212B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTocreateContinuationsThatThrowsErrors.swift; sourceTree = "<group>"; };
+		41BE66232B3D0C8500211C35 /* StoreContinuationsResumedLater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreContinuationsResumedLater.swift; sourceTree = "<group>"; };
 		41F450062B3CC70F00078143 /* SwiftConcurrencyByExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyByExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F450092B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyByExampleApp.swift; sourceTree = "<group>"; };
 		41F4500B2B3CC70F00078143 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 				41BE66192B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift */,
 				41BE661B2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift */,
 				41BE661D2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift */,
+				41BE661F2B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift */,
+				41BE66212B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift */,
+				41BE66232B3D0C8500211C35 /* StoreContinuationsResumedLater.swift */,
 				41F4500D2B3CC71100078143 /* Assets.xcassets */,
 				41F4500F2B3CC71100078143 /* Preview Content */,
 			);
@@ -158,6 +167,9 @@
 				41BE661C2B3D04CB00211C35 /* HowToCreateAndUseAsyncProperties.swift in Sources */,
 				41F4500A2B3CC70F00078143 /* SwiftConcurrencyByExampleApp.swift in Sources */,
 				41BE661E2B3D072100211C35 /* HowToCallAsyncFunctionUsingAsyncLet.swift in Sources */,
+				41BE66222B3D0BB900211C35 /* HowTocreateContinuationsThatThrowsErrors.swift in Sources */,
+				41BE66242B3D0C8500211C35 /* StoreContinuationsResumedLater.swift in Sources */,
+				41BE66202B3D0A1700211C35 /* HowToUseContinuationsToConvertCompletionHandlersToAsyncFunctions.swift in Sources */,
 				41BE661A2B3D01DD00211C35 /* WhatCallsFirstAsyncFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

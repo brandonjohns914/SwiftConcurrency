@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-actor User {
+actor Users {
     func login() {
         Task.detached {
             
@@ -27,7 +27,7 @@ actor User {
 }
 
 func login()  async {
-    let user = User()
+    let user = Users()
     await user.login()
 }
 

@@ -10,6 +10,9 @@
 		417B37852B3E3BD9008C88BD /* HowToControlPriorityOfTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B37842B3E3BD9008C88BD /* HowToControlPriorityOfTasks.swift */; };
 		417B37872B3E40C7008C88BD /* HowToCreateTaskGroupAddTasksToIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B37862B3E40C7008C88BD /* HowToCreateTaskGroupAddTasksToIt.swift */; };
 		417B37892B3F8165008C88BD /* HowToCancelGroupTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B37882B3F8165008C88BD /* HowToCancelGroupTask.swift */; };
+		417B378B2B3F8A3B008C88BD /* MessageSwiftUITaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B378A2B3F8A3B008C88BD /* MessageSwiftUITaskModifier.swift */; };
+		417B378D2B3F9010008C88BD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B378C2B3F9010008C88BD /* Message.swift */; };
+		417B378F2B3F9392008C88BD /* NumberGeneratorTaskModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B378E2B3F9392008C88BD /* NumberGeneratorTaskModifer.swift */; };
 		41BE663A2B3E166900211C35 /* TasksAndGroupsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE66392B3E166900211C35 /* TasksAndGroupsApp.swift */; };
 		41BE663C2B3E166900211C35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE663B2B3E166900211C35 /* ContentView.swift */; };
 		41BE663E2B3E166A00211C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BE663D2B3E166A00211C35 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 		417B37842B3E3BD9008C88BD /* HowToControlPriorityOfTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToControlPriorityOfTasks.swift; sourceTree = "<group>"; };
 		417B37862B3E40C7008C88BD /* HowToCreateTaskGroupAddTasksToIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateTaskGroupAddTasksToIt.swift; sourceTree = "<group>"; };
 		417B37882B3F8165008C88BD /* HowToCancelGroupTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCancelGroupTask.swift; sourceTree = "<group>"; };
+		417B378A2B3F8A3B008C88BD /* MessageSwiftUITaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSwiftUITaskModifier.swift; sourceTree = "<group>"; };
+		417B378C2B3F9010008C88BD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		417B378E2B3F9392008C88BD /* NumberGeneratorTaskModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorTaskModifer.swift; sourceTree = "<group>"; };
 		41BE66362B3E166900211C35 /* TasksAndGroups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasksAndGroups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BE66392B3E166900211C35 /* TasksAndGroupsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksAndGroupsApp.swift; sourceTree = "<group>"; };
 		41BE663B2B3E166900211C35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,12 +71,15 @@
 			children = (
 				41BE66392B3E166900211C35 /* TasksAndGroupsApp.swift */,
 				41BE663B2B3E166900211C35 /* ContentView.swift */,
+				417B378C2B3F9010008C88BD /* Message.swift */,
 				41BE66472B3E25CF00211C35 /* HowToCreateRunTask.swift */,
 				41BE66492B3E351D00211C35 /* DifferenceBetweenTaskandDetachedTask.swift */,
 				41BE664B2B3E38EF00211C35 /* HowToGetResultFromTask.swift */,
 				417B37842B3E3BD9008C88BD /* HowToControlPriorityOfTasks.swift */,
 				417B37862B3E40C7008C88BD /* HowToCreateTaskGroupAddTasksToIt.swift */,
 				417B37882B3F8165008C88BD /* HowToCancelGroupTask.swift */,
+				417B378A2B3F8A3B008C88BD /* MessageSwiftUITaskModifier.swift */,
+				417B378E2B3F9392008C88BD /* NumberGeneratorTaskModifer.swift */,
 				41BE663D2B3E166A00211C35 /* Assets.xcassets */,
 				41BE663F2B3E166A00211C35 /* Preview Content */,
 			);
@@ -160,7 +169,10 @@
 				41BE663C2B3E166900211C35 /* ContentView.swift in Sources */,
 				41BE664C2B3E38EF00211C35 /* HowToGetResultFromTask.swift in Sources */,
 				417B37892B3F8165008C88BD /* HowToCancelGroupTask.swift in Sources */,
+				417B378B2B3F8A3B008C88BD /* MessageSwiftUITaskModifier.swift in Sources */,
+				417B378F2B3F9392008C88BD /* NumberGeneratorTaskModifer.swift in Sources */,
 				417B37872B3E40C7008C88BD /* HowToCreateTaskGroupAddTasksToIt.swift in Sources */,
+				417B378D2B3F9010008C88BD /* Message.swift in Sources */,
 				41BE663A2B3E166900211C35 /* TasksAndGroupsApp.swift in Sources */,
 				417B37852B3E3BD9008C88BD /* HowToControlPriorityOfTasks.swift in Sources */,
 			);

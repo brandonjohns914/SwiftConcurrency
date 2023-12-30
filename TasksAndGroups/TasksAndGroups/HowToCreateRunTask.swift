@@ -51,12 +51,6 @@ func updates() async {
     await fetchUpdates()
 }
 
-struct Message: Decodable, Identifiable {
-    let id: Int
-    let from: String
-    let text: String
-    
-}
 
 struct HowToCreateRunTask: View {
     @State private var messages = [Message]()
